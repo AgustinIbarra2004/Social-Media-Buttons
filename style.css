@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 5em;
+    text-align: center;
+    padding-top: 60px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Esto centra verticalmente */
+    height: 65vh; /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+}
+button{
+    border: none; /*Elimina el borde*/
+    background: none; /*Elimina el fondo*/
+    padding: 0; 
+    cursor: pointer; 
+}
+
+.linkedin, .github, .discord {
+background-size: cover; /*Acomoda la imagen para que ocupe logar que yo quiera*/
+background-position: center;/*Centra la imagen*/
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+
+.linkedin{
+    background-image: url(Imagenes/linkedin.png);
+}
+.github{
+    background-image: url(Imagenes/github.png);
+}
+.discord{
+    background-image: url(Imagenes/discordia.png);
+}
+
